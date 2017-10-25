@@ -1,0 +1,24 @@
+html,
+body {
+  background: $white;
+  color: $black;
+  font-family: $font-family-prime;
+  font-size: $font-size-prime;
+  font-weight: 600;
+  z-index: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+div,
+section,
+header,
+footer,
+form {
+  display: flex;
+}
+
